@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+
+
+
+#topfinal {
+    font-family: "michroma";
+    text-align:center;
+    align-items:end;
+    font-size: 45px;
+    color: white;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+
+div.porsche{
+    background-image: url('../img/car.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+.topitems {
+    display: flex;
+    justify-content: center;    
+    gap: 20px;
+    margin: 20px auto;
+    color: white;
+    font-family: "michroma";
+    background-color: lightgray;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 15px;
+}
+
+.topitems a {
+    color: grey;
+    text-decoration: none;
+    
+}
+.topitems a:hover {
+    background-color: grey;
+    color: white;
+}
+
+.topimg {
+    display: block;
+}
+
+.video {
+    width: 80%;
+    max-width: 700px;
+    aspect-ratio: 16/9;
+    margin:5px auto;
+    overflow: hidden;
+    padding-bottom: 10%;
+}
+
+article { 
+    align-items: center;
+    text-align: center;
+}
+
+img.first {
+    width: 95vw;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+div.intro {
+    text-align: center;
+    font-family: "michroma";
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 15px;
+}
+
+p.icon {
+    font-family: "michroma";
+    text-align: center;
+    font-size:25px;
+}
+    
+.container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+}
+
+
+
+div.GT3 {
+    font-family: "michroma";
+    grid-column: 1;
+    background-color:lightgray;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+div.Carrera {
+    grid-column: 2;
+    display: flex;
+    background-color: lightgray;
+    font-family: "michroma";
+    display: inline-block;padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+div.targa {
+     grid-column: 3;
+    display: flex;
+    font-family: "michroma";
+    background-color: lightgray;
+    display: inline-block;padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+div.models {
+    font-family: "michroma";
+    color: red;
+    text-align: center;
+    font-size: 25px ;
+    margin-top: 40px;
+    width: 75%;
+}
+
+
+div.interior{
+    display:inline-block;
+    position:relative;
+    width: 35%;
+    height: 420px;
+    margin-left: 20px;
+}
+
+.interior img {
+    width: 260px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.imgone {
+    top: 20px;
+    left: 40px; 
+}
+
+.imgtwo {
+    top: 100px;
+    left: 200px; 
+}
+
+.imgthree {
+    top: 40px;
+    left: 400px;   
+}
+
+.textright {
+    width: 48%;
+    font-size: 15px;
+    font-family: "michroma";
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float: right;
+}
+
+.textright p {
+    margin-left: 20px;
+}
+
+div.firstmodel {
+   display:inline-block;
+    position:relative;
+    width: 29%;
+    height: 420px;
+    margin-left: 20px; 
+}
+
+.firstmodel img {
+    width: 140%;
+    object-fit: cover;
+    border-radius: 30px;
+    position: absolute;
+}
+
+div.secondmodel {
+    display:inline-block;
+    position:relative;
+    width: 35%;
+    height: 420px;
+    margin-right: 20px; 
+}
+
+.secondmodel img {
+    width: 140%;
+    height: 750px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+
+
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    margin-top: 50px;
+}
