@@ -256,7 +256,7 @@ form {
 }
 
 
-#museumtop {
+#name {
     font-family: "michroma";
     text-align:center;
     align-items:end;
@@ -267,7 +267,39 @@ form {
 }
 
 
-div.mtop {
+div.Mtop {
     background-image: url(../img/museumtop.avif);
-  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    font-family: "michroma";
+}
+
+div.about {
+    text-align:left;
+    font-family: "michroma";
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 15px;
+}
+
+
+.firstmuseum {
+    width: 50%;
+    overflow: hidden;
+    border-radius: 30px;;
+}
+
+.description {
+    width: 48%;
+    font-size: 15px;
+    font-family: "michroma";
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float: right;
+}
+
+.description p {
+    margin-left: 20px;
 }
