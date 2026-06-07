@@ -256,12 +256,18 @@ form {
 }
 
 
+
+.museum {
+    background-color: black;
+    color: white;
+}
+
 #name {
     font-family: "michroma";
     text-align:center;
     align-items:end;
     font-size: 45px;
-    color: white;
+    color: white; 
     margin: 0;
     padding-bottom: 20px;
 }
@@ -274,6 +280,7 @@ div.Mtop {
     height: 400px;
     display: flex;
     font-family: "michroma";
+    color: white;
 }
 
 div.about {
@@ -282,24 +289,38 @@ div.about {
     margin: 20px auto;
     padding: 20px;
     font-size: 15px;
+    color: white;
 }
 
 
 .firstmuseum {
-    width: 50%;
+    width: 40%;
     overflow: hidden;
-    border-radius: 30px;;
+    
+}
+
+.collection {
+    display: block;
+    width: 100%;
+    border-radius: 30px;
 }
 
 .description {
-    width: 48%;
+    width: 45%;
     font-size: 15px;
     font-family: "michroma";
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
     margin-top: 20px;
-    float: right;
-}
+    color: white;
+} 
 
 .description p {
-    margin-left: 20px;
+   margin: 0;
+}
+
+.bloque {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 40px 20px;
 }
